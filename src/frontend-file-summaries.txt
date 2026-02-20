@@ -16,5 +16,10 @@
   "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including project CRUD, phase updates, and insights management with proper data invalidation and caching, now imports BudgetLevel from local types.",
   "frontend/README.md": "Comprehensive documentation explaining React + Motoko architecture, setup instructions, development guidelines, phase structure, and critical rules about frontend never accessing storage directly.",
   "frontend/src/index.css": "Global styles with customized OKLCH color system using cinematic warm palette for light mode and deep cinematic palette for dark mode.",
-  "frontend/src/lib/types.ts": "Frontend type definitions file containing types used in the frontend but not exported by the backend interface, specifically the BudgetLevel type."
+  "frontend/src/lib/types.ts": "Frontend type definitions file containing types used in the frontend but not exported by the backend interface, specifically the BudgetLevel type.",
+  "frontend/package.json": "Complete package.json with all required dependencies for React 19, TypeScript, Vite, TanStack Router/Query, Internet Computer SDK packages, Tailwind CSS, and shadcn/ui components with proper scripts for development and build.",
+  "frontend/vite.config.js": "Vite configuration with React plugin, path aliases, environment variable handling for Internet Computer canisters, development server on port 3000, and proxy configuration for local canister communication.",
+  "frontend/postcss.config.js": "PostCSS configuration file enabling Tailwind CSS and Autoprefixer plugins for processing styles.",
+  "frontend/tsconfig.json": "TypeScript configuration with ES2020 target, strict mode, path aliases for @ imports, and React JSX support.",
+  "frontend/tsconfig.node.json": "TypeScript configuration for Node.js build tools and Vite config file processing."
 }
